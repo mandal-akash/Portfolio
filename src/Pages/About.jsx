@@ -1,13 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import "../Style/About.css";
-import SplitText from "gsap-trial/SplitText";
 import gsap from "gsap";
 import ScrollTrigger from "gsap-trial/ScrollTrigger";
 
 const About = () => {
-  gsap.registerPlugin(ScrollTrigger, SplitText);
-  const textRef = useRef(null);
-  const highlightRefs = useRef([]);
+  gsap.registerPlugin(ScrollTrigger);
+
 
   useEffect(() => {
     let tl = gsap.timeline({
