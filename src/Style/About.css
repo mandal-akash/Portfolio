@@ -1,0 +1,32 @@
+.about{
+  font-family: "Chillax", sans-serif;
+}
+
+.project_section {
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+}
+
+.box {
+  background: rgba(49, 48, 48, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+
+.share_link{
+  background: rgba(49, 48, 48, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+
+.btn_icons > p{
+  background: rgba(49, 48, 48, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}

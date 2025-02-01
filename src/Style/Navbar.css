@@ -1,0 +1,43 @@
+
+.navbar_logo > h1{
+  font-family: "Chillax", sans-serif;
+}
+
+.menuBox > ul > li{
+  font-family: "Chillax", sans-serif;
+}
+
+
+/* From Uiverse.io by WhiteNervosa */ 
+.menuBox > ul > li {
+  cursor: pointer;
+  position: relative;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.menuBox > ul > li:focus,
+.menuBox > ul > li:hover {
+  color: #fff;
+}
+
+.menuBox > ul > li:focus:after,
+.menuBox > ul > li:hover:after {
+  width: 40%;
+}
+
+.menuBox > ul > li:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 30%;
+  position: absolute;
+  width: 0%;
+  height: 4px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
