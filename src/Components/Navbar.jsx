@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import Hamburger from "hamburger-react";
 import "../Style/Navbar.css";
+import header_logo from "../../public/Images/portfolio/navbar_logo.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,7 +40,7 @@ const Navbar = () => {
     <div>
       <div className="flex justify-between items-center p-3">
         <div className="navbar_logo lg:px-12">
-          <img src="../../../public/Images/navbar_logo.png" alt="" className="w-[35%]"/>
+          <img src={header_logo} alt="" className="w-[35%]"/>
         </div>
         <div className="hamburger_menu lg:px-6 z-50">
           <button

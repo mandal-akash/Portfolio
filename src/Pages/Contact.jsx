@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Style/Contact.css";
+import footer_sec from '../../public/Images/portfolio/footer_sec.png'
 import {
   FaRegEnvelope,
   FaGithub,
@@ -17,7 +18,7 @@ const Contact = () => {
         </p>
       </div>
       <hr className="w-[100%] border-2 border-neutral-800 my-6" />
-      <div className="flex justify-between items-center">
+      <div className="flex flex-col lg:flex-row justify-between items-center">
         <div className="social_link space-y-8 ">
           <h1 className=" text-neutral-700 text-5xl font-normal lg:text-6xl ">
             Let's talk
@@ -36,17 +37,17 @@ const Contact = () => {
               Find me on
             </h1>
             <div className="flex items-center space-x-8">
-              <p className="text-4xl text-neutral-700">
+              <a href='https://github.com/mandal-akash' target='blank' className="text-4xl text-neutral-700">
                 <FaGithub />
-              </p>
-              <p className="text-4xl text-neutral-700">
+              </a>
+              <a href='https://www.linkedin.com/in/akash-kumar-mandal-20654921b/' target='blank' className="text-4xl text-neutral-700">
                 <FaLinkedin />
-              </p>
+              </a>
             </div>
           </div>
         </div>
         <div className="">
-          <img src="../../../public/Images/footer_sec.png" alt="" />
+          <img src={footer_sec} alt="footer_sec" className=''/>
         </div>
       </div>
       </div>

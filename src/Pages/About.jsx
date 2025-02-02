@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "../Style/About.css";
 import gsap from "gsap";
+import underline from "../../public/Images/portfolio/underline.png"
 import ScrollTrigger from "gsap-trial/ScrollTrigger";
 
 const About = () => {
@@ -75,7 +76,7 @@ const About = () => {
       <div className="about_section">
         <div className="relative">
           <img
-            src="../../../public/Images/underline.png"
+            src={underline}
             alt=""
             className="absolute -top-[2rem] w-[60%] left-[5rem] lg:w-[35%] lg:-top-[7rem] lg:left-[30rem]"
           />
@@ -107,7 +108,7 @@ const About = () => {
         <div className="px-2 relative">
           <div className="">
             <img
-              src="../../../public/Images/underline.png"
+              src={underline}
               alt=""
               className="absolute -top-[1rem] w-[80%] left-[2rem] lg:w-[40%] lg:-top-[6rem] lg:left-[30rem]"
             />

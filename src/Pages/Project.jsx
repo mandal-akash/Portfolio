@@ -3,6 +3,12 @@ import { RiShareCircleLine } from "react-icons/ri";
 import "../Style/Project.css";
 import gsap from "gsap";
 import ScrollTrigger from "gsap-trial/ScrollTrigger";
+import pop from "../../public/Images/portfolio/pop.png"
+import bookmyshow from "../../public/Images/Project/bookmyshow.png"
+import pokemon from "../../public/Images/Project/pokemon_card.png"
+import myMart from "../../public/Images/Project/myMart.png"
+import workspace from "../../public/Images/Project/workspace.png"
+import vector from "../../public/Images/portfolio/Vector.png"
 const Project = () => {
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
@@ -30,7 +36,7 @@ const Project = () => {
     <div className="project_section">
       <div className="relative">
         <img
-          src="../../../public/Images/pop.png"
+          src={pop}
           alt=""
           className="absolute lg:w-[20%] lg:-top-[8rem] -top-[5rem] right-[1rem] w-[50%]"
         />
@@ -43,7 +49,7 @@ const Project = () => {
           <div className="box w-[95%] mx-auto  flex lg:flex-row flex-col my-20">
             <div className="">
               <img
-                src="../../../public/Images/Project/bookmyshow.png"
+                src={bookmyshow}
                 alt=""
                 className="lg:w-[90%] p-3"
               />
@@ -82,7 +88,7 @@ const Project = () => {
           <div className="box w-[95%] mx-auto  flex lg:flex-row flex-col my-20">
             <div className="">
               <img
-                src="../../../public/Images/Project/pokemon_card.png"
+                src={pokemon}
                 alt=""
                 className="lg:w-[90%] p-3"
               />
@@ -121,7 +127,7 @@ const Project = () => {
           <div className="box w-[95%] mx-auto  flex lg:flex-row flex-col my-20">
             <div className="">
               <img
-                src="../../../public/Images/Project/myMart.png"
+                src={myMart}
                 alt=""
                 className="lg:w-[90%] p-3"
               />
@@ -158,7 +164,7 @@ const Project = () => {
           <div className="box w-[95%] mx-auto  flex lg:flex-row flex-col my-10">
             <div className="">
               <img
-                src="../../../public/Images/Project/workspace.png"
+                src={workspace}
                 alt=""
                 className="lg:w-[90%] p-3"
               />
@@ -192,7 +198,7 @@ const Project = () => {
       </div>
       <div className="">
         <img
-          src="../../../public/Images/vector.png"
+          src={vector}
           alt=""
           className="w-[100%]"
         />
