@@ -3,7 +3,7 @@ import "../Style/Home.css";
 import About from "./About";
 import Project from "../Pages/Project";
 import Contact from "../Pages/Contact"
-
+import yellow_circle from "../../public/Images/yellow_circle.png"
 import { gsap } from "gsap";
 
 const Home = () => {
@@ -63,7 +63,7 @@ const Home = () => {
         <div className="heading py-24 lg:py-14 text-neutral-800 pl-2 space-y-8">
           <div className="relative">
             <img
-              src="../../../public/Images/yellow_circle.png"
+              src={yellow_circle}
               alt="yellow_circle"
               className="yellow-circle w-[40%] -left-5 lg:w-[15%] absolute lg:left-80 lg:top-10 -z-50"
             />
